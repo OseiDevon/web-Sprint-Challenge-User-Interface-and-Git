@@ -51,30 +51,46 @@ table {
     box-sizing: border-box;
 }
 
-.toptop {
-    width: 80%;
-    height: 50px;
+.toptop nav {
     margin: 30px;
-    color: black;
     background: white;
+
+    display: flex;
+
+
+}
+
+.toppy, .toppy2{
+    margin: 0 10%;
+}
+
+
+.toppy2 {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: .8rem;
+    margin: 20px 10%;
+
+
+
+}
+
+.toppy2 a{
     text-decoration: none;
-    font-size: 1.3rem;
-}
+    color: black;
+    margin: 2px;
+    margin-right: 25%;
 
-.toppy {
-    display: inline-block;
-    flex-direction: center;
-    align-items: center;
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 20%;
 
 }
+
 /*fix if we have time*/
 .image{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 48%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
 
 
 }
