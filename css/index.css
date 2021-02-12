@@ -61,7 +61,8 @@ table {
 }
 
 .toppy, .toppy2{
-    margin: 0 10%;
+    margin: 0 12%;
+
 }
 
 
@@ -159,16 +160,16 @@ p {
 .middle-content .boxes {
     width: 100%;
     height: 100%;
-    margin: 20px 2.5%;
     padding: 30px;
     color: black;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
 
 
+}
+
+.boxes div{
+    margin: 3% 3%;
+    justify-content: space-evenly;
 }
 
 .box1{
