@@ -51,30 +51,47 @@ table {
     box-sizing: border-box;
 }
 
-.toptop {
-    width: 80%;
-    height: 50px;
+.toptop nav {
     margin: 30px;
-    color: black;
     background: white;
+
+    display: flex;
+
+
+}
+
+.toppy, .toppy2{
+    margin: 0 12%;
+
+}
+
+
+.toppy2 {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: .8rem;
+    margin: 20px 10%;
+
+
+
+}
+
+.toppy2 a{
     text-decoration: none;
-    font-size: 1.3rem;
-}
+    color: black;
+    margin: 2px;
+    margin-right: 25%;
 
-.toppy {
-    display: inline-block;
-    flex-direction: center;
-    align-items: center;
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 20%;
 
 }
+
 /*fix if we have time*/
 .image{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 48%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
 
 
 }
@@ -119,6 +136,7 @@ p {
 }
 
 .middle-content {
+
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,16 +161,16 @@ p {
 .middle-content .boxes {
     width: 100%;
     height: 100%;
-    margin: 20px 2.5%;
-    padding: 30px;
-    color: black;
+    padding: 5px;
+    color: white;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
 
 
+}
+
+.boxes div{
+    margin: 3% 3%;
+    justify-content: space-evenly;
 }
 
 .box1{
@@ -224,7 +242,7 @@ p {
 .box10{
 
     background-color: dodgerblue;
-    padding: 30px;
+    padding: 25px;
 }
 
 
@@ -261,3 +279,40 @@ footer nav a {
     text-decoration: none;
 }
 /* about css*/
+.fingerscrossed{
+    margin:0 4%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.fingerscrossed .middle-content{
+     width: 40%;
+     margin: 20px 1%;
+
+}
+
+.bottom-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 2% 20px;
+}
+
+.lastpiece{
+    margin: 0 8%;
+}
+
+.border{
+    margin: 20px 7%;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    margin: 5% 0;
+    border-color: black;
+    border-radius: 5px;
+}
+
+
